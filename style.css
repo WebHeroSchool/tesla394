@@ -1,0 +1,593 @@
+@import {
+   url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+}
+
+@media 
+ (min-device-width : 320px) {
+ .body {
+   font-size: 15px;
+ }
+}
+
+@media (min-width:481px) {
+  .body {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:641px) {
+  .body {
+    font-size: 20px;
+  }
+}
+
+@media (min-width:961px) {
+  .body {
+    font-size: 24px;
+  }
+}
+
+@media (min-width:1025px){
+  .body {
+    font-size: 28px;
+  }
+}
+
+@media (min-width:1281px) {
+  .body {
+    font-size: 31px;
+  }
+}
+.header__pic {
+  position: absolute;
+width: 166px;
+height: 51px;
+left: 42.72px;
+top: 24px;
+background: url(Tesla-Wordmark-Red.png)
+}
+
+.header__menu-s {
+  position: absolute;
+width: 62px;
+height: 19px;
+left: 466.86px;
+top: 40px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+  color: #E51937;
+}
+
+.header__menu-x {
+  position: absolute;
+width: 63px;
+height: 19px;
+left: 592px;
+top: 40px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-decoration: none;
+color: black;
+}
+
+
+.header__menu-model {
+  position: absolute;
+width: 61px;
+height: 19px;
+left: 679.86px;
+top: 40px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-decoration: none;
+color: black;
+}
+
+.header__menu-road {
+  position: absolute;
+width: 70px;
+height: 19px;
+left: 784.86px;
+top: 40px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-decoration: none;
+color: black;
+}
+
+.header__menu-energy {
+  position: absolute;
+width: 55px;
+height: 19px;
+left: 900.86px;
+top: 40px;
+font-family:  'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-decoration: none;
+color: black;
+}
+
+.header__menu-shop {
+  position: absolute;
+width: 69px;
+height: 19px;
+left: 1177px;
+top: 40px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-decoration: none;
+color: black;
+}
+
+.header__menu-in {
+  position: absolute;
+width: 50px;
+height: 19px;
+left: 1276px;
+top: 40px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+text-decoration: none;
+color: black;
+}
+
+.menu__icon {
+width: 24px;
+height: 15px;
+left: 1356px;
+top: 42px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu__icon span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 100%;
+    background: #E51937;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+ }
+ 
+ .menu__icon span:nth-child(1) {
+   top: 0px;
+ }
+  
+  .menu__icon span:nth-child(2),  .menu__icon span:nth-child(3) {
+   top: 13px;
+ }
+ 
+ .menu__icon span:nth-child(4) {
+   top: 26px;
+ }
+
+.menu.menu_state_open .menu__icon span:nth-child(1) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.menu.menu_state_open .menu__icon span:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+.menu.menu_state_open .menu__icon span:nth-child(3) {
+    transform: rotate(-45deg);
+}
+
+.menu.menu_state_open .menu__icon span:nth-child(4) {
+    top: 18px;
+    width: 0%;
+    left: 50%;
+}
+
+.menu.menu_state_open .menu__links {
+    display: block;  
+   }
+ 
+ @media screen and (max-width: 999px) {
+  .menu__icon{
+    display: inline-block;
+  }
+  
+  .header-menu {
+    position: fixed;
+    display: block;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 52px;
+    background-color: #E51937(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+  }
+  
+  .header__menu-s .header__menu-x .header__menu-model .header__menu-road .header__menu-energy .header__menu-shop .header__menu-in {
+    display: none;
+    padding: 10px 0;
+    text-align: center;
+  }
+}
+
+.main__title {
+  position: absolute;
+width: 370px;
+height: 110px;
+left: 535px;
+top: 133px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 90px;
+line-height: 110px;
+color: black;
+}
+.main__subtitle {
+  position: absolute;
+width: 241px;
+height: 19px;
+left: 600px;
+top: 233px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+}
+
+.main__pic {
+  position: absolute;
+width: 968px;
+height: 450px;
+left: 199px;
+top: 278px;
+}
+
+.main__content-pic {
+  position: absolute;
+width: 375px;
+height: 58px;
+left: 321px;
+top: 754px;
+
+}
+.main__content-drive {
+  position: absolute;
+width: 118px;
+height: 22px;
+left: 801px;
+top: 774px;
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main__button {
+ position: absolute;
+width: 147px;
+height: 24px;
+left: 966px;
+top: 776px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+
+color: red;
+}
+
+.section__title {
+  position: absolute;
+width: 288px;
+height: 86px;
+left: 80px;
+top: 964px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 70px;
+line-height: 85px;
+}
+
+.section__pic {
+  position: absolute;
+width: 1548px;
+height: 844px;
+left: -275px;
+top: 956px;
+
+background: url(2013-tesla-model-s-cockpit.jpg);
+}
+
+article {
+  background: #E51937;
+}
+.article__title {
+  position: absolute;
+width: 316px;
+height: 37px;
+left: 1052px;
+top: 951px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+
+}
+
+.article__text {
+  position: absolute;
+width: 316px;
+height: 206px;
+left: 1052px;
+top: 999px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+
+}
+
+.article__pic {
+  position: absolute;
+width: 187px;
+height: 65px;
+left: 1052px;
+top: 1259px;
+
+}
+
+.article__pic-software {
+  position: absolute;
+width: 269px;
+height: 71px;
+left: 1048px;
+top: 1359px;
+
+}
+
+.article__pic-volume {
+  position: absolute;
+width: 202px;
+height: 71px;
+left: 1052px;
+top: 1455px;
+
+}
+
+.aside__pic {
+  position: absolute;
+width: 347px;
+height: 40px;
+left: 1049px;
+top: 1697px;
+
+}
+
+.section__button {
+  position: absolute;
+width: 347px;
+height: 40px;
+left: 1049px;
+top: 1697px;
+}
+
+.footer__title {
+  position: absolute;
+width: 316px;
+height: 74px;
+left: 56px;
+top: 1851px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+}
+
+.footer__text {
+  position: absolute;
+width: 316px;
+height: 134px;
+left: 56px;
+top: 1937px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+
+.footer__subtitle {
+  position: absolute;
+width: 263px;
+height: 37px;
+left: 56px;
+top: 2120px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 37px;
+}
+
+.footer__info-front {
+  position: absolute;
+width: 90px;
+height: 21px;
+left: 56px;
+top: 2186px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+}
+
+.footer__info-side {
+  position: absolute;
+width: 64px;
+height: 21px;
+left: 56px;
+top: 2223px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+}
+
+.footer__info-other {
+  position: absolute;
+width: 64px;
+height: 21px;
+left: 56px;
+top: 2260px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+}
+
+.footer__info-driver {
+  position: absolute;
+width: 103px;
+height: 21px;
+left: 56px;
+top: 2297px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+}
+
+.footer__info-pass {
+  position: absolute;
+width: 109px;
+height: 21px;
+left: 56px;
+top: 2334px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+}
+
+.footer__star-front {
+  position: absolute;
+width: 25px;
+height: 25px;
+left: 207px;
+top: 2183px;
+
+
+}
+
+.footer__star-side {
+  position: absolute;
+width: 25px;
+height: 25px;
+left: 207px;
+top: 2220px;
+}
+
+.footer__star-other {
+  position: absolute;
+width: 25px;
+height: 25px;
+left: 207px;
+top: 2257px;
+}
+
+.footer__star-driver {
+  position: absolute;
+width: 25px;
+height: 25px;
+left: 207px;
+top: 2294px;
+}
+
+.footer__star-pass {
+  position: absolute;
+width: 25px;
+height: 25px;
+left: 207px;
+top: 2331px;
+}
+
+.footer__pic {
+  position: absolute;
+width: 280px;
+height: 92px;
+left: 66px;
+top: 2457px;
+}
+
+.footer__group {
+  position: absolute;
+width: 347px;
+height: 40px;
+left: 38px;
+top: 2600px;
+
+}
+
+.footer__car {
+  position: absolute;
+width: 1049px;
+height: 592px;
+left: 345px;
+top: 1971px;
+}
+
+.footer__button {
+   position: absolute;
+width: 347px;
+height: 40px;
+left: 38px;
+top: 2600px;
+}
