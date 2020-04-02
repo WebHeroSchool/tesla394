@@ -1,4 +1,5 @@
    
+   
 @media  (min-device-width : 320px) {
  .body {
    font-size: 15px;
@@ -34,19 +35,17 @@
     font-size: 31px;
   }
 }
+
 .header__pic {
   position: absolute;
 width: 166px;
 height: 51px;
 left: 42.72px;
 top: 24px;
-background: url(Tesla-Wordmark-Red.png);
 }
 
 .header__menu-s {
   position: absolute;
-width: 62px;
-height: 19px;
 left: 466.86px;
 top: 40px;
 font-family: 'montserratsemibold';
@@ -55,16 +54,23 @@ font-weight: 600;
 font-size: 15px;
 line-height: 18px;
   color: #E51937;
+  text-decoration: none;
 }
 
+.header__line {
+	position: absolute;
+width: 60px;
+height: 2px;
+left: 467.86px;
+top: 65px;
+color:#E51937;
+}
 .header__menu-x {
   position: absolute;
-width: 63px;
-height: 19px;
 left: 592px;
 top: 40px;
 font-family: 'montserratsemibold';
-font-style: italic;
+font-style: normal;
 font-weight: 600;
 font-size: 15px;
 line-height: 18px;
@@ -75,11 +81,9 @@ color: black;
 
 .header__menu-model {
   position: absolute;
-width: 61px;
-height: 19px;
 left: 679.86px;
 top: 40px;
-font-family: 'MontserratBold';
+font-family: 'montserratsemibold';
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
@@ -90,11 +94,9 @@ color: black;
 
 .header__menu-road {
   position: absolute;
-width: 70px;
-height: 19px;
 left: 784.86px;
 top: 40px;
-font-family: 'MontserratBold';
+font-family: 'montserratsemibold';
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
@@ -105,11 +107,9 @@ color: black;
 
 .header__menu-energy {
   position: absolute;
-width: 55px;
-height: 19px;
 left: 900.86px;
 top: 40px;
-font-family: 'MontserratBold';
+font-family: 'montserratsemibold';
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
@@ -120,11 +120,9 @@ color: black;
 
 .header__menu-shop {
   position: absolute;
-width: 69px;
-height: 19px;
 left: 1177px;
 top: 40px;
-font-family: 'MontserratBold';
+font-family: 'montserratsemibold';
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
@@ -135,11 +133,9 @@ color: black;
 
 .header__menu-in {
   position: absolute;
-width: 50px;
-height: 19px;
 left: 1276px;
 top: 40px;
-font-family: 'MontserratBold';
+font-family: 'montserratsemibold';
 font-style: normal;
 font-weight: 600;
 font-size: 15px;
@@ -149,58 +145,46 @@ color: black;
 }
 
 .menu__icon {
-width: 24px;
+width: 22px;
 height: 15px;
 left: 1356px;
-top: 42px;
-  position: relative;
-  cursor: pointer;
+top: 34px;
+ position: relative;
+ cursor: pointer;
+ display: block;
+ background-color: white;
+ border-radius: 15px;
 }
 
-.menu__icon span {
-    display: block;
-    position: absolute;
-    height: 9px;
-    width: 100%;
-    background: #E51937;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
- }
- 
- .menu__icon span:nth-child(1) {
-   top: 0px;
- }
+.menu__icon span,
+.menu__icon span::before,
+ .menu__icon span::after  {
   
-  .menu__icon span:nth-child(2),  .menu__icon span:nth-child(3) {
-   top: 13px;
+    position: absolute;
+    height: 2px;
+    width: 22px;
+    background-color: #E51937;
+    border-radius: 10px;
+    transition: .25s ease-in-out;
+	margin-top: -1px;
+	margin-left: -11px;
+	top: 50%;
+	left: 50%;
  }
  
- .menu__icon span:nth-child(4) {
-   top: 26px;
+ .menu__icon span::before,
+ .menu__icon span::after {
+ 	content:'';
+	
  }
-
-.menu.menu_state_open .menu__icon span:nth-child(1) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(2) {
-    transform: rotate(45deg);
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(3) {
-    transform: rotate(-45deg);
-}
-
-.menu.menu_state_open .menu__icon span:nth-child(4) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-}
+ 
+ .menu__icon span::before {
+ 	transform: translateY(-5px);
+ }
+ 
+ .menu__icon span::after {
+ 	transform: translateY(5px);
+ }
 
 .menu.menu_state_open .menu__links {
     display: block;  
@@ -211,7 +195,7 @@ top: 42px;
     display: inline-block;
   }
   
-  .header-menu {
+  .menu {
     position: fixed;
     display: block;
     top: 0;
@@ -232,12 +216,10 @@ top: 42px;
 
 .main__title {
   position: absolute;
-width: 370px;
-height: 110px;
 left: 535px;
 top: 133px;
 font-family: 'montserratsemibold';
-font-style: italic;
+font-style: normal;
 font-weight: 600;
 font-size: 90px;
 line-height: 110px;
@@ -246,11 +228,9 @@ color: black;
 
 .main__subtitle {
   position: absolute;
-width: 241px;
-height: 19px;
 left: 600px;
 top: 233px;
-font-family: 'montserratregular';
+font-family: 'montserratmedium';
 font-style: normal;
 font-weight: 500;
 font-size: 15px;
@@ -260,40 +240,135 @@ line-height: 18px;
 
 .main__pic {
   position: absolute;
-width: 968px;
-height: 450px;
-left: 199px;
-top: 278px;
+width: 1514px;
+height: 594px;
+left: 25px;
+top: 134px;
 }
 
-.main__content-pic {
+
+.main__content-speeder {
+position: absolute;
+width: 46px;
+height: 34.13px;
+left: 367px;
+top: 767px;
+}
+
+.main__content-number {
   position: absolute;
-width: 375px;
-height: 58px;
-left: 321px;
-top: 754px;
+  left: 420px;
+top: 722px;
+font-family: 'montserratsemibold';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 43px;
+color: black;
+}
+
+.main__content-time {
+  position: absolute;
+  left: 472px;
+top: 750px;
+font-family: 'montserratmedium';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: black;
+}
+
+.main__content-speed {
+  position: absolute;
+  left: 420px;
+top: 785px;
+font-family: 'montserratlight';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: black;
+}
+
+.main__content-roadicon {
+	position: absolute;
+width: 30.5px;
+height: 50px;
+left: 620px;
+top: 764px;
+shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
-.main__content-drive {
+.main__content-distance {
   position: absolute;
-width: 118px;
+  left: 658px;
+top: 722px;
+font-family: 'montserratsemibold';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 43px;
+color: black;
+}
+
+.main__content-km {
+  position: absolute;
+  left: 725px;
+top: 750px;
+font-family: 'montserratmedium';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: black;
+}
+
+.main__content-reserve {
+  position: absolute;
+  left: 658px;
+top: 784px;
+font-family: 'montserratlight';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: black;
+}
+
+.main__content-wheel {
+	position: absolute;
+width: 22px;
 height: 22px;
-left: 801px;
-top: 774px;
-
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+left: 892px;
+top: 785px;
+shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.main__content-test {
+  position: absolute;
+  left: 920px;
+top: 775px;
+font-family: 'montserratmedium';
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+text-transform: uppercase;
+color: black;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .main__button {
 position: absolute;
 width: 160px;
 height: 40px;
-left: 959px;
-top: 765px;
+left: 1045px;
+top: 776px;
 border: 2px solid #E51937;
 box-sizing: border-box;
 background: white;
-font-family: 'MontserratBold';
+font-family: 'montserratbold';
 font-style: normal;
 font-weight: bold;
 font-size: 13px;
@@ -301,6 +376,14 @@ line-height: 16px;
 text-align: center;
 text-transform: uppercase;
 color: #E51937;
+}
+
+.main__content-pointer {
+	position: absolute;
+width: 28px;
+height: 14px;
+left: 755px;
+top: 849px;
 }
 
 .section__title {
