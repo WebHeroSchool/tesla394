@@ -1,40 +1,4 @@
-   
-   
-@media  (min-device-width : 320px) {
- .body {
-   font-size: 15px;
- }
-}
 
-@media (min-width:481px) {
-  .body {
-    font-size: 16px;
-  }
-}
-
-@media (min-width:641px) {
-  .body {
-    font-size: 20px;
-  }
-}
-
-@media (min-width:961px) {
-  .body {
-    font-size: 24px;
-  }
-}
-
-@media (min-width:1025px){
-  .body {
-    font-size: 28px;
-  }
-}
-
-@media (min-width:1281px) {
-  .body {
-    font-size: 31px;
-  }
-}
 
 .header__pic {
   position: absolute;
@@ -240,24 +204,32 @@ line-height: 18px;
 
 .main__pic {
   position: absolute;
-width: 1514px;
-height: 594px;
-left: 25px;
-top: 134px;
+width: 1030px;
+height: 450px;
+left: 199px;
+top: 278px;
 }
 
+.main__back {
+	position: absolute;
+width: 1514px;
+height: 467px;
+left: 0;
+top: 134px;
+z-index: 2;
+}
 
 .main__content-speeder {
 position: absolute;
 width: 46px;
 height: 34.13px;
-left: 367px;
+left: 347px;
 top: 767px;
 }
 
 .main__content-number {
   position: absolute;
-  left: 420px;
+  left: 400px;
 top: 722px;
 font-family: 'montserratsemibold';
 font-style: normal;
@@ -269,7 +241,7 @@ color: black;
 
 .main__content-time {
   position: absolute;
-  left: 472px;
+  left: 452px;
 top: 750px;
 font-family: 'montserratmedium';
 font-style: normal;
@@ -281,7 +253,7 @@ color: black;
 
 .main__content-speed {
   position: absolute;
-  left: 420px;
+  left: 400px;
 top: 785px;
 font-family: 'montserratlight';
 font-style: normal;
@@ -295,14 +267,17 @@ color: black;
 	position: absolute;
 width: 30.5px;
 height: 50px;
-left: 620px;
+left: 600px;
 top: 764px;
 shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
+.main__content-ricon {
+	display: none;
+}
 .main__content-distance {
   position: absolute;
-  left: 658px;
+  left: 638px;
 top: 722px;
 font-family: 'montserratsemibold';
 font-style: normal;
@@ -314,7 +289,7 @@ color: black;
 
 .main__content-km {
   position: absolute;
-  left: 725px;
+  left: 705px;
 top: 750px;
 font-family: 'montserratmedium';
 font-style: normal;
@@ -326,7 +301,7 @@ color: black;
 
 .main__content-reserve {
   position: absolute;
-  left: 658px;
+  left: 638px;
 top: 784px;
 font-family: 'montserratlight';
 font-style: normal;
@@ -340,13 +315,17 @@ color: black;
 	position: absolute;
 width: 22px;
 height: 22px;
-left: 892px;
+left: 842px;
 top: 785px;
 shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
+
+.main__content-redwheel {
+	display: none;
+}
 .main__content-test {
   position: absolute;
-  left: 920px;
+  left: 870px;
 top: 775px;
 font-family: 'montserratmedium';
 font-style: normal;
@@ -363,7 +342,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 position: absolute;
 width: 160px;
 height: 40px;
-left: 1045px;
+left: 1000px;
 top: 776px;
 border: 2px solid #E51937;
 box-sizing: border-box;
@@ -789,4 +768,313 @@ text-align: center;
 text-transform: uppercase;
 color: white;
 background: #E51937;
+}
+
+
+@media screen and (max-width:768px) {
+  .main__title {
+    font-size: 50px;
+	left: 85px;
+top: 50px;
+  }
+  .main__pic {
+ 	width: 330px;
+height: 150px;
+left: 20px;
+top: 200px;
+}
+.main__back {
+	width: 380px;
+height: 139px;
+left: 0;
+top: 150px;
+z-index: 2;
+}
+.header__pic {
+	width: 138px;
+height: 42px;
+left: 2px;
+top: 5px;
+}
+.menu__icon {
+	left: 360px;
+top: 5px;
+}
+.main__subtitle {
+font-size: 10px;
+line-height: 12px;
+left: 108px;
+top: 118px;
+}
+.main__content-speeder {
+	width: 38.14px;
+height: 28.7px;
+left: 35px;
+top: 370px;
+}
+.main__content-number {
+	left: 83px;
+top: 330px;
+font-size: 27px;
+}
+.main__content-time {
+	left: 130px;
+top: 358px;
+font-size: 15px;
+line-height: 18px;
+}
+.main__content-speed {
+	left: 83px;
+top: 380px;
+font-size: 10px;
+}
+.main__content-roadicon {
+display: none;
+}
+.main__content-ricon {
+		width: 24.04px;
+height: 36.88px;
+left: 200px;
+top: 365px;
+display: block;
+position: absolute;
+}
+.main__content-distance {
+	left: 230px;
+top: 330px;
+font-size: 27px;
+}
+.main__content-km {
+	height: 19px;
+left: 283px;
+top: 355px;
+font-size: 15px;
+}
+.main__content-reserve {
+	left: 230px;
+top: 380px;
+font-size: 10px;
+}
+.main__content-wheel {
+display: none;
+}
+.main__content-redwheel {
+	width: 22px;
+height: 22px;
+left: 30px;
+top: 450px;
+display: block;
+position: absolute;
+}
+.main__content-test {
+	left: 63px;
+top: 440px;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+color: #E51937;
+text-shadow: none;
+}
+.main__button {
+	width: 160px;
+height: 40px;
+left: 179px;
+top: 440px;
+color: white;
+background: #E51937;
+border: 2px solid #E51937;
+}
+.main__content-pointer {
+	width: 28px;
+height: 14px;
+left: 170px;
+top: 510px;
+}
+}
+
+@media screen and (max-width: 1024px) {
+.menu__icon {
+	left: 330px;
+}
+.main__title {
+	left: 110px;
+}
+.main__subtitle {
+	left: 135px;
+}
+.main__pic {
+	width: 360px;
+height: 150px;
+left: 20px;
+top: 200px;
+}
+.main__back {
+	width: 420px;
+height: 139px;
+left: 0;
+top: 150px;
+}
+
+.main__content-speeder{
+	left: 65px;
+}
+.main__content-number {
+	left: 113px;
+}
+.main__content-time {
+	left: 155px;
+	
+}
+.main__content-speed {
+	left: 113px;
+}
+.main__content-roadicon {
+display: none;
+}
+.main__content-ricon {
+	left: 230px;
+}
+.main__content-distance {
+	left: 260px;
+
+}
+.main__content-km {
+left: 313px;
+}
+.main__content-reserve {
+	left: 260px;
+
+}
+.main__content-redwheel {
+	left: 73px;
+}
+.main__content-test {
+	left: 103px;
+}
+.main__button {
+left: 205px;
+
+}
+.main__content-pointer {
+left: 200px;
+
+}
+}
+
+@media screen and (max-width: 1366px) {
+.main__title {
+    font-size: 50px;
+	left: 120px;
+top: 50px;
+ } 
+ .menu {
+ 	display: none;
+ }
+ .main__pic {
+left: 20px;
+top: 200px;
+}
+.main__back {
+left: 0;
+top: 140px;
+}
+.header__pic {
+	width: 120px;
+height: 35px;
+left: 2px;
+top: 5px;
+}
+.menu__icon {
+	left: 370px;
+top: 5px;
+}
+.main__subtitle {
+font-size: 10px;
+line-height: 12px;
+left: 140px;
+top: 118px;
+}
+.main__content-speeder {
+	width: 38.14px;
+height: 28.7px;
+left: 70px;
+top: 370px;
+}
+.main__content-number {
+	left: 115px;
+top: 330px;
+font-size: 27px;
+}
+.main__content-time {
+	left: 160px;
+top: 355px;
+font-size: 15px;
+}
+.main__content-speed {
+	left: 115px;
+top: 380px;
+font-size: 10px;
+}
+.main__content-roadicon {
+display: none;
+}
+.main__content-ricon {
+		width: 24.04px;
+height: 36.88px;
+left: 230px;
+top: 365px;
+display: block;
+position: absolute;
+}
+.main__content-distance {
+	left: 265px;
+top: 330px;
+font-size: 27px;
+}
+.main__content-km {
+	height: 19px;
+left: 320px;
+top: 350px;
+font-size: 15px;
+}
+.main__content-reserve {
+	left: 265px;
+top: 380px;
+font-size: 10px;
+}
+.main__content-wheel {
+display: none;
+}
+.main__content-redwheel {
+	width: 22px;
+height: 22px;
+left: 85px;
+top: 440px;
+display: block;
+position: absolute;
+}
+.main__content-test {
+	left: 110px;
+top: 430px;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+color: #E51937;
+text-shadow: none;
+}
+.main__button {
+	width: 160px;
+height: 40px;
+left: 210px;
+top: 430px;
+color: white;
+background: #E51937;
+border: 2px solid #E51937;
+}
+.main__content-pointer {
+	width: 28px;
+height: 14px;
+left: 205px;
+top: 498px;
+}
 }
