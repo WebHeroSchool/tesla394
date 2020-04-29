@@ -46,8 +46,7 @@ justify-content: space-between;
 
 .header__aside {
    display: flex;
-	margin-top: 30px;
-
+	margin: 30px 30px;
 }
 
 .header__menu-link {
@@ -60,7 +59,9 @@ justify-content: space-between;
 }
 
 .header__line {
-	padding: 0;
+position: absolute;
+	left: 463px;
+	top: 50px;
 }
 .menu__icon {
 width: 24px;
@@ -95,8 +96,6 @@ margin: 0 5px;
 
 .info__content {
 	display: flex;
-	justify-content: center;
-
 }
 .main__content {
 	margin: 30px 0;	
@@ -116,9 +115,7 @@ margin: 0 5px;
 
 .content__item {
 	margin-right: 5px;
-	display: flex;
-	align-items: center;
-	justify-content: center;	
+	display: flex;	
 	flex-direction: column; 
 }
 
@@ -200,7 +197,7 @@ justify-content: center;
 }
 
 
-
+/**
 section {
 
 }
