@@ -250,7 +250,10 @@ align-items: center;
 	margin-right: 0;
 }
  .button__out {
- 	margin-right: 20px;
+ 	padding: 15px;
+ }
+ .button__text {
+ 	font-size: 10px;
  }
 
 }

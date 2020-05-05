@@ -197,9 +197,9 @@ justify-content: center;
 }
 
 
-/**
-section {
 
+section {
+display: flex;
 }
 .section__title {
 	color: #E51937;
@@ -209,7 +209,6 @@ section {
 
 .article {
 width: 440px;
-float: right;
 	color: white;
 	background-color: #E51937;
 margin: 0;
@@ -217,15 +216,12 @@ margin: 0;
 }
 
 .section__pic {
-
+float: left;
 }
 
 .article {
-width: 440px;
-float: right;
 	color: white;
 	background-color: #E51937;
-
 
 }
 
@@ -236,7 +232,7 @@ float: right;
 }
 
 .article__charset {
-	margin: 20px;
+	margin: 0 0 10px;
 	display: flex; 	
 }
 
