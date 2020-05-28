@@ -1,3 +1,21 @@
+@media screen and (max-width: 1440px) {
+	.header__line {
+		position: absolute;
+		left: 415px;
+		top: 50px;
+	}
+}
+
+@media screen and (max-width: 1440px) {
+	.header__line {
+		position: absolute;
+		left: 335px;
+		top: 50px;
+	}
+}
+
+
+
 @media screen and (max-width: 1024px) {
 .body {
 text-align: center;
@@ -8,8 +26,9 @@ align-items: center;
 diplay: flex;
 padding: 0;
 margin: 0 auto;
-
 }
+
+
 .main {
 padding: 0;
 margin: 0 auto;
@@ -141,8 +160,13 @@ align-items: center;
 
 }
 
+@media screen and (max-width: 501px) {
+	.button__text {
+	 font-size: 12px; 
+	 }
+}
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 460px) {
 .body {
 text-align: center;
 align-items: center;
@@ -208,7 +232,7 @@ height: 22px;
 }
 
 .button__out {
-	padding: 15px;
+	padding: 10px;
 }
 
 .button__border {
@@ -238,6 +262,9 @@ align-items: center;
  .button__out {
  	padding: 10px;
  }
+ .button__text {
+ 	font-size: 10px;
+ }
 
 }
 @media screen and (max-width: 320px) {
@@ -249,11 +276,10 @@ align-items: center;
 .main__content {
 	margin-right: 0;
 }
- .button__out {
- 	padding: 15px;
- }
- .button__text {
- 	font-size: 10px;
- }
+button {
+	padding: 0 20px;
+}
+
+
 
 }
