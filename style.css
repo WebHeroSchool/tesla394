@@ -10,6 +10,9 @@ html {
 body {
 	margin: 0;
 	position: relative;
+	min-width: 320px;
+	max-width: 100%;
+	align-items: center;
 }
 
 h1,h2 {
@@ -41,7 +44,9 @@ justify-content: space-between;
 .menu {
 	margin: 30px;
 	padding: 0;
-	
+	display: flex;
+	flex-wrap: nowrap;
+justify-content: center;	
 }
 
 .header__aside {
@@ -52,12 +57,26 @@ justify-content: space-between;
 .header__menu-link {
 	margin: 20px;
 	padding: 0;
+	color: black;
+
+}
+
+.header__menu-link:hover {
+	color: #E51937;
+	text-decoration: underline;
 }
 
 #light {
 	color:  #E51937;
 }
 
+#light::after {
+	content: '_______';
+	color: #E51937;
+	display: flex;
+	flex-diretion: column;
+	justify-content: center;
+}
 .header__line {
 position: absolute;
 	left: 458px;
@@ -169,6 +188,10 @@ button {
 	align-items: center;
 }
 
+button:hover {
+	opacity: 0.5;
+}
+
 .button__pic {
 	margin-right: 5px;
 	align-items: center;
@@ -197,7 +220,7 @@ justify-content: center;
 }
 
 
-/*
+
 section {
 display: flex;
 }
