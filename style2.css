@@ -1,24 +1,31 @@
 @media screen and (max-width: 1440px) {
-	
-	
+	.main__pic {
+		margin: -100px 0 0 0 ;
+	}
 }
 
 @media screen and (max-width: 1120px) {
-	.header__menu-link {
+  .header__menu-link {
 		font-size: 14px;
+	}
+  .main__pic {
+		margin: -80px 0 0 0 ;
 	}
 }
 @media screen and (max-width: 1090px) {
-.header__menu-link {
+  .header__menu-link {
 	font-size: 13px;
 }
+  .main__pic {
+		margin: -70px 0 0 0 ;
+	}
 }
 
 @media screen  and (max-width: 1062px) {
-.menu{
+  .menu{
 	display: none;
 }
-.header__menu-link {
+  .header__menu-link {
 	display: none;
 }
 }
@@ -26,269 +33,283 @@
 
 
 @media screen and (max-width: 1024px) {
-.body {
+  .body {
 text-align: center;
 align-items: center;
 }
 
-.header {
+  .main__pic {
+		margin: -60px 0 0 0 ;
+	}
+	
+  .header {
 diplay: flex;
 padding: 0;
 margin: 0 auto;
 }
 
-
-.main {
+  .main {
 padding: 0;
-margin: 0 auto;
-	
+margin: 0 auto;	
 }
 
 
-.header__menu {
+  .header__menu {
 display: none;
 }
 
-.header__menu-link {
+  .header__menu-link {
 	display: none;
 
 }
-.header__line {
+
+  .header__line {
 	display: none;
 }
 
-
-.main__title {
+  .main__title {
 	font-size: 90px;
-	margin-bottom: 10px;
-	
+	margin-bottom: 10px;	
 }
-.main__subtitle {
+  
+  .main__subtitle {
 	font: 15px 'montserratmedium';
 	margin-bottom: 0;
 	padding: 0;
 	text-align: center;
 }
 
-.main__info {
-display: flex;
+  .main__info {
+  display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-
-
-.main__content {
+  .main__content {
 	margin: 20px;
 	padding: 0;
 }
 
-.main__content-item {
+  .main__content-item {
 	margin: 0 20px;
 }
-.content {
+
+  .content {
 margin: 0;
 }
-.content__pic {
+
+  .content__pic {
 	width: 65px;
 height: 50px;
 }
-.content__one-big {
-	font-size: 50px;
+
+  .content__one-big {
+    font-size: 50px;
 }
 
-
-.content__one-small {
-	font-size: 20px;
+  .content__one-small {
+    font-size: 20px;
 }
 
-.content__item-two {
+  .content__item-two {
 	font-szie: 12px;
 }
-.button__border {
-color: white;
-background-color: #E51937;
-padding: 0 50px;
+
+  .button__border {
+    color: white;
+    background-color: #E51937;
+    padding: 0 50px;
 }
-.button__out {
+
+  .button__out {
 	color: #E51937;
 }
 
-.button__redwheel {
+  .button__redwheel {
 	margin-right: 5px;
 	align-items: center;
 	display: flex;
 	justify-content: center;
 }
 
-.button__pic {
+  .button__pic {
 	display: none;
 }
 
-.button__text {
-	display: flex;
-flex-wrap: nowrap;
-font-size: 16px;
-}
-section {
-	padding: 0;
-margin: 0 auto;
-}
-article {
-	padding: 0;
-margin: 0 auto;
-
+  .button__text {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 16px;
 }
 
-.section__pic {
-
+  section {
+  padding: 0;
+  margin: 0 auto;
 }
-.section__title {
-	font-size:70px;
+
+  article {
+  padding: 0;
+  margin: 0 auto;
+}
+
+  .section__title {
+    font-size:70px;
 	text-align: right;
 }
-.article__title {
- font-size: 
+
+  .article__title {
+    font-size: 
 	
 }
 }
 
 
 @media screen and (max-width:768px) {
+  .body {
+    text-align: center;
+    align-items: center;
+}
 
-.body {
-text-align: center;
-align-items: center;
-}
-.main__title {
+  .main__title {
 	font-size: 50px;
-	margin-bottom: 10px;
-	
+	margin-bottom: 10px;	
 }
+
+  .main__pic {
+    margin: -50px 0 0 0 ;
+	}
 
 }
 
 @media screen and (max-width: 501px) {
-	.button__text {
-	 font-size: 12px; 
+  .button__text {
+    font-size: 12px; 
 	 }
+	 
+  .main__pic {
+    margin: 0;
+	}
 }
 
 @media screen and (max-width: 460px) {
-.body {
-text-align: center;
-align-items: center;
+  .body {
+    text-align: center;
+    align-items: center;
 }
 
-.header {
+  .header {
 	padding: 0;
 	margin: 0;
 }
-.main__title {
+  .main__title {
 	font-size: 50px;
 }
 
-.main__subtitle {
+  .main__subtitle {
 	font-size: 10px;
 	text-align: center;
 }
 
-.main__content {
+  .main__content {
 	margin: 10px;	
 }
 
-
-.info__content {
+  .info__content {
 	margin: 0 20px 0 20px;
 }
 
-.content__item-one {
+  .content__item-one {
 	font-size: 27px;
 	margin: 0;
 }
-.content__one-big {
+
+  .content__one-big {
 	font-size: 27px;
 	margin: 0 5px 5px 0;
 	
 }
-.content__one-small {
+
+  .content__one-small {
 	font-size: 15px;	
 }
 
-.content__item-two {
+  .content__item-two {
 	font-size: 10px;
 	display: flex;
-margin: 0;
-}
-.content__pic {
-width: 38px;
-height: 27px;
+    margin: 0;
 }
 
-.button__text {
+  .content__pic {
+    width: 38px;
+    height: 27px;
+}
+
+  .button__text {
 	font-size: 13px;
 	display: flex;
-flex-direction: row;
+    flex-direction: row;
 }
 
-.button__redwheel {
+  .button__redwheel {
 	width: 22px;
-height: 22px;
+    height: 22px;
 }
-.main__pointer {
+
+  .main__pointer {
 	margin-top: 10px;
 }
 
-.button__out {
+  .button__out {
 	padding: 10px;
 }
 
-.button__border {
+  .button__border {
 	padding: 0 40px;
 }
-.roadicon {
+  .roadicon {
 	width: 29px;
-height: 41px;
+    height: 41px;
 }
 }
 
 
 @media screen and (max-width: 375px) {
- .body {
-text-align: center;
-align-items: center;
+  .body {
+    text-align: center;
+    align-items: center;
 }
-
-
 }
 
 @media screen and (max-width: 360px) {
- .body {
-text-align: center;
-align-items: center;
+  .body {
+    text-align: center;
+    align-items: center;
 }
- .button__out {
+
+  .button__out {
  	padding: 10px;
+
  }
- .button__text {
+
+  .button__text {
  	font-size: 10px;
  }
-
+  .main__content {
+ 	margin: 0 0 10px;
+ }
 }
+
 @media screen and (max-width: 320px) {
- .body {
-text-align: center;
-align-items: center;
+  .body {
+    text-align: center;
+    align-items: center;
 }
 
-.main__content {
+  .main__content {
 	margin-right: 0;
 }
-button {
+  button {
 	padding: 0 20px;
 }
-
-
-
 }
