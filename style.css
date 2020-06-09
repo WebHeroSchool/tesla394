@@ -37,29 +37,26 @@ button {
 
 header {
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;	
+  justify-content: space-between;
+  
 }
 
 .header__pic {
-   margin: 10px;
+  margin: 10px;
 }
 
 .menu {
-  margin: 10px;
+  margin: 0 0 0 60px;
   padding: 0;
   display: flex;
-		
 }
-
 .header__aside {
   display: flex;
-  margin: 30px 30px;
+  margin: 30px 0 0 0;
 }
 
 .header__menu-link {
-  margin: 20px;
-  padding: 0;
+  margin: 30px 40px 0 0;
   color: black;
 }
 
@@ -69,7 +66,8 @@ header {
 }
 
 #light {
-  color:  #e51937;
+  color: #e51937;
+  margin: 30px 50px 0 0;
 }
 
 #light::after {
@@ -123,7 +121,8 @@ header {
 }
 
 .main__content {
-  margin: 30px 0;	
+  margin: 30px 0;
+  	
 }
 
 .main__content-item {
@@ -143,7 +142,6 @@ header {
   flex-direction: column; 
 }
 
-
 .content__pic {
   width: 46px;
   height: 35px;
@@ -153,7 +151,7 @@ header {
 }
 
 .content__item-one {
-  font: 35px 'montserratsemibold';
+  font-family: 35px 'montserratsemibold';
   margin: 0 5px 5px 0;
   display: flex;
   align-items: baseline;
@@ -161,16 +159,16 @@ header {
 }
 
 .content__one-big {
-  font: 35px 'montserratsemibold';
+  font-family: 35px 'montserratsemibold';
   margin: 0 5px 0 0;
 }
 
 .content__one-small {
-  font: 20px 'montserratsemibold';	
+  font-family: 20px 'montserratsemibold';	
 }
 
 .content__item-two {
-  font: 12px 'montserratregular';
+  font-family: 12px 'montserratregular';
 }
 
 button {
@@ -180,7 +178,7 @@ button {
   padding: 0 40px;
   color: black;
   border: 2px solid white;
-  font: 13px 'montserratbold';
+  font-family: 13px 'montserratbold';
 }
 
 .button__out {
@@ -210,6 +208,7 @@ button:hover {
   border: 2px solid #e51937;
   color:#e51937;
 }
+
 .button__text {
   text-transform: uppercase;
 }
