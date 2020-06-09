@@ -5,7 +5,7 @@ body {
 }
 
 html {
-	font: 15px 'montserratregular';
+  font: 15px 'montserratregular';
 }
 
 body {
@@ -21,6 +21,7 @@ h2 {
   margin: 0;
   padding: 0;
 }
+
 a {
   font-family: 'montserratsemibold';
   text-decoration: none;
@@ -39,6 +40,7 @@ header {
   flex-wrap: nowrap;
   justify-content: space-between;	
 }
+
 .header__pic {
    margin: 10px;
 }
@@ -172,51 +174,51 @@ header {
 }
 
 button {
-	border: none;
-	display: flex;
-	align-items: center;
-	padding: 0 40px;
-	color: black;
-	border: 2px solid white;
-	font: 13px 'montserratbold';
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  color: black;
+  border: 2px solid white;
+  font: 13px 'montserratbold';
 }
 
 .button__out {
-	border: none;
-	display: flex;
-	align-items: center;
+  border: none;
+  display: flex;
+  align-items: center;
 }
 
 button:hover {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 .button__pic {
-	margin-right: 5px;
-	align-items: center;
-	display: flex;
-	justify-content: center;
+  margin-right: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .button__redwheel {
-	display: none;
+  display: none;
 }
 
 .button__border {
-	display: flex;
-	align-items: center;
-border: 2px solid #e51937;
-	color:#e51937;
+  display: flex;
+  align-items: center;
+  border: 2px solid #e51937;
+  color:#e51937;
 }
 .button__text {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .main__pointer {
-margin: 0 auto;
-display: flex;
-align-items: center;
-justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
@@ -454,3 +456,4 @@ align-items: baseline;
 	margin-right: 5px;
 }
 
+*/
