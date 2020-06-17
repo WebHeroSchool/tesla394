@@ -1,3 +1,11 @@
+@media screen and (max-width: 1680px) {
+  body {
+  	box-sizing: border-box;
+  }
+}
+
+
+
 @media screen and (max-width: 1440px) {
   .main__pic {
     margin: -100px 0 0 0;
@@ -8,7 +16,7 @@
   .header__menu-link {
     font-size: 14px;
   }
-  
+
   .main__pic {
     margin: -80px 0 0 0;
   }
@@ -16,17 +24,17 @@
 
 @media screen and (max-width: 1090px) {
   .header__menu-link {
-	font-size: 13px;
+    font-size: 13px;
   }
   
   .main__pic {
-	margin: -70px 0 0 0;
+    margin: -70px 0 0 0;
   }
 }
 
 @media screen  and (max-width: 1062px) {
-  .menu{
-	display: none;
+  .menu {
+    display: none;
   }
   
   .header__menu-link {
@@ -51,12 +59,13 @@
   }
   
   .header__aside {
-  	margin: 25px;
+    margin: 25px;
   }
 
   .main {
     padding: 0;
-    margin: 0 auto;	
+    margin: 0 auto;
+
   }
   
   .header__menu {
@@ -72,15 +81,15 @@
   }
 
   .main__title {
-	font-size: 90px;
+    font-size: 90px;
     margin-bottom: 10px;	
   }
   
   .main__subtitle {
-	font-family: 15px 'montserratmedium';
-	margin-bottom: 0;
-	padding: 0;
-	text-align: center;
+    font-family: 15px 'montserratmedium';
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
   }
 
   .main__info {
@@ -163,7 +172,6 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .body {
     text-align: center;
@@ -227,7 +235,6 @@
   }
 }
 
-
 @media screen and (max-width: 560px) {
   .main__title {
   	font-size: 70px;
@@ -246,7 +253,7 @@
 
 @media screen and (max-width: 501px) {
   .button__text {
-    font-size: 12px; 
+    font-size: 12px;
   }
 	 
   .main__pic {
