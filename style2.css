@@ -1,4 +1,4 @@
- @media screen and (max-width: 1680px) {
+@media screen and (max-width: 1680px) {
   body {
     width: 100%;
     height: 100%;
@@ -50,7 +50,7 @@
   .main__pic {
     margin: -50px 0 30px 0;
   }
-	
+
   .header {
     display: flex;
     padding: 0;
@@ -75,7 +75,7 @@
   }
 
   .header__line {
-	  display: none;
+    display: none;
   }
 
   .main__title {
@@ -85,7 +85,7 @@
 
   .main__subtitle {
     font-size: 15px;
-	    font-family: 'montserratmedium';
+    font-family: 'montserratmedium', san-serif;
     margin-bottom: 0;
     padding: 0;
     text-align: center;
@@ -93,18 +93,18 @@
 
   .main__info {
     display: flex;
-	    flex-direction: column;
-	    justify-content: center;
-	  align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .main__content {
-	    margin: 0 0 40px 0;
-	    padding: 0;
+    margin: 0 0 40px 0;
+    padding: 0;
   }
 
   .main__content-item {
-	    margin: 0 20px;
+    margin: 0 20px;
   }
 
   .content {
@@ -112,7 +112,7 @@
   }
 
   .content__pic {
-	    width: 65px;
+    width: 65px;
     height: 50px;
   }
 
@@ -125,7 +125,7 @@
   }
 
   .content__item-two {
-	    font-size: 12px;
+    font-size: 12px;
   }
 
   .button__border {
@@ -139,14 +139,14 @@
   }
 
   .button__redwheel {
-	    margin-right: 5px;
-	    align-items: center;
-	    display: flex;
-	    justify-content: center;
+    margin-right: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
   }
 
   .button__pic {
-	    display: none;
+    display: none;
   }
 
   .button__text {
@@ -167,7 +167,7 @@
 
   .section__title {
     font-size: 70px;
-	    text-align: right;
+    text-align: right;
   }
 }
 
@@ -178,8 +178,8 @@
   }
   
   .main__title {
-	    font-size: 90px;
-	    margin-bottom: 10px;
+    font-size: 90px;
+    margin-bottom: 10px;
   }
 
   .main__subtitle {
@@ -276,7 +276,7 @@
   }
 
   .content__item-two {
-    font-szie: 10px;
+    font-size: 10px;
   }
 
   .content__pic {
@@ -296,7 +296,6 @@
   .button__border {
     padding: 0 40px;
   }
- 
 }
 
 @media screen and (max-width: 460px) {
@@ -338,7 +337,7 @@
   }
 
   .content__one-small {
-    font-size: 15px;	
+    font-size: 15px;
   }
 
   .content__item-two {
@@ -351,7 +350,7 @@
     font-size: 13px;
     display: flex;
     flex-direction: row;
- }
+  }
 
   .button__redwheel {
      width: 22px;
@@ -383,6 +382,7 @@
   .button__text {
     font-size: 10px;
   }
+
   .main__content {
     margin: 0 0 10px;
   }
