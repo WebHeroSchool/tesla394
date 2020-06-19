@@ -239,8 +239,9 @@ section {
 .section__title {
   color: #e51937;
   font-size: 70px;
-  font-family: 'montserratsemibold';
+  font-family: 'montserratsemibold', sans-serif;
   position: relative;
+  margin: 30px 0 0 30px;
 }
 
 .section__pic {
@@ -251,12 +252,13 @@ section {
 
 .article {
   position: relative;
-  float: left;
+
   left: 1000px;
   width: 31%;
   color: white;
   background-color: #e51937;
-
+  margin: 0;
+  padding: 0;
 }
 
 .article__info {
@@ -274,15 +276,13 @@ section {
 	margin: 20px;
 	padding: 20px;
 }
+
 .article__title {
 	text-align: left;
 	padding: 10px;
 	font-size: 30px;
 }
 
-.article__text {
-	text-align: left;
-}
 
 .charset {
 	display: flex;
@@ -298,16 +298,18 @@ section {
 .charset__item-one {
 	display: flex;
 	align-items: baseline;
-	text-align: left;
+	
 }
 
 .charset__item-two {
     display: flex;
 	flex-direction: column;
 }
+
 .charset__one-big {
-	font: 35px 'montserratsemibold';
-	text-align: left;
+	font-size: 35px;
+	font-family:  'montserratsemibold', sans-serif;
+	
 	
 }
 
@@ -321,10 +323,10 @@ section {
 display: flex;
 }
 
-
 .charset__button-pic {
 	margin-right: 5px;
 }
+
 .charset__button-border {
 border: 2px solid white;
 	color: white;
