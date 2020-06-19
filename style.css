@@ -6,14 +6,14 @@ body {
 
 html {
   font-size: 15px;
-  font-family: 'montserratregular', san-serif;
+  font-family: 'montserratregular', sans-serif;
 }
 
 body {
   margin: 0 auto;
   position: relative;
   min-width: 320px;
-  max-width: 1440px;  
+  max-width: 1440px;
 }
 
 h1,
@@ -23,7 +23,7 @@ h2 {
 }
 
 a {
-  font-family: 'montserratsemibold', san-serif;
+  font-family: 'montserratsemibold', sans-serif;
   text-decoration: none;
   color: black;
 }
@@ -38,7 +38,7 @@ button {
   padding: 0 40px;
   color: black;
   font-size: 13px;
-  font-family: 'montserratbold', san-serif;
+  font-family: 'montserratbold', sans-serif;
 }
 
 header {
@@ -73,7 +73,7 @@ header {
   content: "";
   display: block;
   width: 100%;
-  height: 2px;	
+  height: 2px;
   background-color: #e51937;
   opacity: 0;
   position: absolute;
@@ -87,7 +87,7 @@ header {
   color: #e51937;
 }
 
-.header__menu-link:hover:after {
+.header__menu-link:hover::after {
   opacity: 1;
 }
 
@@ -95,8 +95,6 @@ header {
   color: #e51937;
   margin: 30px 50px 0 0;
 }
-
-
 
 .header__line {
   position: absolute;
@@ -112,7 +110,7 @@ header {
 
 .main__title {
   font-size: 90px;
-  font-family: 'montserratsemibold', san-serif;
+  font-family: 'montserratsemibold', sans-serif;
   margin: 40px 0 0 0;
   padding: 0;
   text-align: center;
@@ -120,7 +118,7 @@ header {
 
 .main__subtitle {
   font-size: 15px;
-  font-family: 'montserratmedium', san-serif;
+  font-family: 'montserratmedium', sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -128,7 +126,7 @@ header {
 
 .main__pic {
   width: 100%;
-  margin: -110px 0 0 0;	
+  margin: -110px 0 0 0;
 }
 
 .main__info {
@@ -141,13 +139,12 @@ header {
 }
 
 .main__content {
-  margin: 30px 0;	
+  margin: 30px 0;
 }
 
 .main__content-item {
   margin: 0 20px;
-  display: flex;
-  	
+  display: flex; 	
 }
 
 .content {
@@ -158,7 +155,7 @@ header {
 
 .content__item {
   margin-right: 5px;
-  display: flex;	
+  display: flex;
   flex-direction: column;
 }
 
@@ -172,7 +169,7 @@ header {
 
 .content__item-one {
   font-size: 35px;
-  font-family: 'montserratsemibold', san-serif;
+  font-family: 'montserratsemibold', sans-serif;
   margin: 0 5px 5px 0;
   display: flex;
   align-items: baseline;
@@ -181,18 +178,18 @@ header {
 
 .content__one-big {
   font-size: 35px;
-  font-family: 'montserratsemibold', san-serif;
+  font-family: 'montserratsemibold', sans-serif;
   margin: 0 5px 0 0;
 }
 
 .content__one-small {
   font-size: 20px;
-  font-family: 'montserratsemibold', san-serif;
+  font-family: 'montserratsemibold', sans-serif;
 }
 
 .content__item-two {
   font-size: 12px;
-  font-family: 'montserratregular', san-serif;
+  font-family: 'montserratregular', sans-serif;
 }
 
 .button__out {
