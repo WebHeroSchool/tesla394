@@ -144,7 +144,7 @@ header {
 
 .main__content-item {
   margin: 0 20px;
-  display: flex;	
+  display: flex;
 }
 
 .content {
@@ -283,7 +283,6 @@ section {
 .article__text {
 	text-align: left;
 }
-
 
 .charset {
 	display: flex;
