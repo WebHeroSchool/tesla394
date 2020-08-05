@@ -11,6 +11,20 @@
   }
 }
 
+@media screen and (max-width: 1283px) {
+  .article__charset {
+    margin: 30px 0 40px 0;
+  }
+
+  .article__info {
+    padding: 18px;
+  }
+
+  .buttons {
+    
+  }
+}
+
 @media screen and (max-width: 1120px) {
   .header__menu-link {
     font-size: 14px;
@@ -30,27 +44,27 @@
     margin: -70px 0 0 0;
   }
 
+  section {
+    background: none;
+  }
+
   .sec__container {
-   display: flex;
-   flex-direction: column;
-   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
   
   .section__logo {
-    margin: 0;
-  }
-
-  .tesladec {
-    position: relative;
     width: 100%;
+    background-image: url("pics/teslamodels.png");
+  background-attachment: inherit;
+  background-repeat: no-repeat;
   }
 
-  .teslamob {
-    display: none;
-  }
-
-  .teslapad {
-    display: none;
+  .section__pic {
+    display: flex;
+    max-width: 1090px;
   }
 
   .section__title {
@@ -318,14 +332,7 @@
     margin: 10px;
   }
 
-  .teslapad {
-    display: none;
-  }
-
-  .teslamob {
-    display: block;  
-  }
-
+  
   .section__title {
     display: none;
   }
