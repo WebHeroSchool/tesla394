@@ -57,9 +57,6 @@
   
   .section__logo {
     width: 100%;
-    background-image: url("pics/teslamodels.png");
-  background-attachment: inherit;
-  background-repeat: no-repeat;
   }
 
   .section__pic {
@@ -77,13 +74,12 @@
 
   .article__info {
     display: flex;
-    margin: 0 auto;
   }
 
   .article__top {
     text-align: left;
     margin: 0;
-    padding: 0;
+    padding: 15px 0 0 40px;
   }
 
   .article__text {
@@ -91,8 +87,8 @@
   }
 
   .article__charset {
-    margin: 0 20px;
-    padding: 0;
+    margin: 0;
+    padding: 0 40px 0 0;
   }
 
   .charset__item-two {
@@ -104,7 +100,14 @@
     margin: 0 auto;
     padding: 0 0 20px 0;
   }
-
+  
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .footer__box {
+    width: 100%;
+  }
 
 }
 

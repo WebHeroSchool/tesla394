@@ -284,7 +284,7 @@ section {
 
 .charset {
   display: flex;
-  padding: 30px 0;
+  padding: 20px 0;
   align-items: center;	
 }
 
@@ -339,3 +339,131 @@ section {
   text-transform: uppercase;
 }
 
+footer {
+  display: flex;
+  color: white;
+}
+
+.footer__box {
+  background-color: #E51937;
+  width: 31%;
+}
+
+.footer__inform {
+  padding: 20px;
+}
+
+.footer__car {
+  
+}
+
+.footer__model {
+  display: flex;
+  align-items: right;
+  top: 50%;
+}
+
+.footer__footer {
+  flex-direction: column;
+  margin: 30px;
+}
+ 
+ .footer__title {
+  font: 30px 'montserratmedium';
+  padding: 10px;
+ }
+
+ .footer__text {
+  padding: 0 0 30px 0;
+  margin: 10px;
+}
+ 
+ .footer__info {
+   margin: 30px;
+ }
+ .footer__subtitle {
+  font: 30px 'montserratmedium';
+  padding: 0 0 20px 0;
+ }
+
+.footer__content {
+  font: 17px 'montserratbold';
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.footer__content-item {
+  margin: 10px;
+}
+
+.content__items {
+
+display: flex;
+  align-items: baseline;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer__word-small {
+  font: 10px 'montserratregular';
+  opacity: 0.7;
+}
+
+.footer__safe {
+  margin: 20px 0;
+  font: 50px 'montserratsemibold';
+}
+
+.safe {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.safe__items {
+  margin: 40px 20px;
+}
+
+.safe__content-one {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.safe__content-two {
+  font: 25px 'montserratmedium';
+}
+
+.footer__word {
+  margin-right: 10px;
+}
+
+.footer__small{
+  margin: 0;
+
+}
+
+.footer__button-out {
+  border: none;
+}
+
+.footer__button-border {
+  color: white;
+  border: 2px solid white;
+}
+
+.footer__button-text {
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+
+.footer__button-pic {
+  margin-right: 5px;
+}
+*/
