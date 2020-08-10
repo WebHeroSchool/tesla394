@@ -1,0 +1,469 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 15px;
+  font-family: 'montserratregular', sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  position: relative;
+  min-width: 320px;
+  max-width: 1440px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-family: 'montserratsemibold', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  color: black;
+  font-size: 13px;
+  font-family: 'montserratbold', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__pic {
+  margin: 10px;
+  width: 166px;
+  height: 51px;
+}
+
+.menu {
+  padding: 0;
+}
+
+.header__aside {
+  display: flex;
+  margin: 30px 0 0 0;
+}
+
+.header__menu-link {
+  display: inline-block;
+  margin: 0 20px;
+  color: black;
+  transition: color 0.1s liner;
+  position: relative;
+}
+
+.header__menu-link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #e51937;
+  opacity: 0;
+  position: absolute;
+  top: 102%;
+  left: 0;
+  z-index: 1;
+  transition: opacity 0.1s liner;
+}
+
+.header__menu-link:hover {
+  color: #e51937;
+}
+
+.header__menu-link:hover::after {
+  opacity: 1;
+}
+
+#light {
+  color: #e51937;
+  margin: 30px 50px 0 0;
+}
+
+.header__line {
+  position: absolute;
+  left: 458px;
+  top: 50px;
+}
+
+.menu__icon {
+  width: 24px;
+  height: 15px;
+  margin: 0 5px;
+}
+
+.main__title {
+  font-size: 90px;
+  font-family: 'montserratsemibold', sans-serif;
+  margin: 40px 0 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main__subtitle {
+  font-size: 15px;
+  font-family: 'montserratmedium', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.main__pic {
+  width: 100%;
+  margin: -110px 0 0 0;
+}
+
+.main__info {
+  display: flex;
+  justify-content: center;
+}
+
+.info__content {
+  display: flex;
+}
+
+.main__content {
+  margin: 30px 0;
+}
+
+.main__content-item {
+  margin: 0 20px;
+  display: flex;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.content__item {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content__pic {
+  width: 46px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content__item-one {
+  font-size: 35px;
+  font-family: 'montserratsemibold', sans-serif;
+  margin: 0 5px 5px 0;
+  display: flex;
+  align-items: baseline;
+  text-align: left;
+}
+
+.content__one-big {
+  font-size: 35px;
+  font-family: 'montserratsemibold', sans-serif;
+  margin: 0 5px 0 0;
+}
+
+.content__one-small {
+  font-size: 20px;
+  font-family: 'montserratsemibold', sans-serif;
+}
+
+.content__item-two {
+  font-size: 12px;
+  font-family: 'montserratregular', sans-serif;
+}
+
+.button__out {
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.button__pic {
+  margin-right: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button__redwheel {
+  display: none;
+}
+
+.button__border {
+  display: flex;
+  align-items: center;
+  border: 2px solid #e51937;
+  color: #e51937;
+}
+
+.button__text {
+  text-transform: uppercase;
+}
+
+.main__pointer {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section {
+	background-image: url("pics/teslamodels.png");
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+}
+
+.sec__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__logo {
+ }
+
+ .section__pic {
+  display: none;
+ }
+
+.section__title {
+  color: #e51937;
+  font-size: 70px;
+  font-family: 'montserratsemibold', sans-serif;
+}
+
+.article {
+  left: 69%;
+  width: 31%;
+  color: white;
+  background-color: #e51937;
+}
+
+.article__info {
+   padding: 40px 30px;
+}
+
+.article__charset {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+}
+
+.article__top {
+  padding: 10px 35px;
+}
+
+.article__title {
+  font-size: 30px;
+}
+
+
+.charset {
+  display: flex;
+  padding: 20px 0;
+  align-items: center;	
+}
+
+.charset__item {
+  margin: 0 10px;	
+}
+
+.charset__item-one {
+  display: flex;
+  align-items: baseline;
+  font: 20px 'montserratsemibold',sans-serif;
+}
+
+.charset__item-two {
+  display: flex;
+  padding: 0 10px 0 0;
+}
+
+.charset__one-big {
+  font-size: 35px;
+  font-family:  'montserratsemibold', sans-serif;	
+}
+
+.charset__one-small {
+  margin: 0 10px;
+}
+
+.charset__button-out {
+  border: none;
+  color: white;
+  display: flex;
+}
+
+.charset__button-pic {
+  margin-right: 5px;
+}
+
+.charset__button-border {
+  border: 2px solid white;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+	
+}
+
+.button__text {
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  color: white;
+}
+
+.footer__box {
+  background-color: #E51937;
+  width: 31%;
+}
+
+.footer__inform {
+  padding: 20px;
+}
+
+.footer__car {
+  
+}
+
+.footer__model {
+  display: flex;
+  align-items: right;
+  top: 50%;
+}
+
+.footer__footer {
+  flex-direction: column;
+  margin: 30px;
+}
+ 
+ .footer__title {
+  font: 30px 'montserratmedium';
+  padding: 10px;
+ }
+
+ .footer__text {
+  padding: 0 0 30px 0;
+  margin: 10px;
+}
+ 
+ .footer__info {
+   margin: 30px;
+ }
+ .footer__subtitle {
+  font: 30px 'montserratmedium';
+  padding: 0 0 20px 0;
+ }
+
+.footer__content {
+  font: 17px 'montserratbold';
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.footer__content-item {
+  margin: 10px;
+}
+
+.content__items {
+
+display: flex;
+  align-items: baseline;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer__word-small {
+  font: 10px 'montserratregular';
+  opacity: 0.7;
+}
+
+.footer__safe {
+  margin: 20px 0;
+  font: 50px 'montserratsemibold';
+}
+
+.safe {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.safe__items {
+  margin: 40px 20px;
+}
+
+.safe__content-one {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.safe__content-two {
+  font: 25px 'montserratmedium';
+}
+
+.footer__word {
+  margin-right: 10px;
+}
+
+.footer__small{
+  margin: 0;
+
+}
+
+.footer__button-out {
+  border: none;
+}
+
+.footer__button-border {
+  color: white;
+  border: 2px solid white;
+}
+
+.footer__button-text {
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+
+.footer__button-pic {
+  margin-right: 5px;
+}
+*/
