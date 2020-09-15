@@ -242,10 +242,7 @@ section {
   justify-content: space-between;
 }
 
-.section__logo {
- }
-
- .section__pic {
+.section__pic {
   display: none;
  }
 
@@ -280,7 +277,6 @@ section {
 .article__title {
   font-size: 30px;
 }
-
 
 .charset {
   display: flex;
@@ -352,36 +348,43 @@ footer {
 .footer__inform {
   padding: 20px;
 }
+ .footer__picture {
+  position: relative;
+ }
 
 .footer__car {
-  
-}
+  position: relative;
+  z-index: 2;
+  top: 25%;
+  left: -10%;
+  }
 
 .footer__model {
-  display: flex;
-  align-items: right;
-  top: 50%;
-}
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 4%;
+ }
 
 .footer__footer {
-  flex-direction: column;
   margin: 30px;
 }
  
- .footer__title {
+.footer__title {
   font: 30px 'montserratmedium';
   padding: 10px;
  }
 
- .footer__text {
+.footer__text {
   padding: 0 0 30px 0;
   margin: 10px;
 }
  
- .footer__info {
+.footer__info {
    margin: 30px;
  }
- .footer__subtitle {
+
+.footer__subtitle {
   font: 30px 'montserratmedium';
   padding: 0 0 20px 0;
  }
@@ -398,8 +401,7 @@ footer {
 }
 
 .content__items {
-
-display: flex;
+  display: flex;
   align-items: baseline;
 }
 
@@ -407,7 +409,6 @@ display: flex;
   display: flex;
   justify-content: space-between;
 }
-
 
 .footer__word-small {
   font: 10px 'montserratregular';
@@ -448,6 +449,13 @@ display: flex;
 
 }
 
+.footer__pad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
 .footer__button-out {
   border: none;
 }
@@ -466,4 +474,3 @@ display: flex;
 .footer__button-pic {
   margin-right: 5px;
 }
-*/

@@ -49,10 +49,10 @@
   }
 
   .sec__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .section__logo {
@@ -60,8 +60,7 @@
   }
 
   .section__pic {
-    display: flex;
-    max-width: 1090px;
+    display: block;
   }
 
   .section__title {
@@ -74,21 +73,26 @@
 
   .article__info {
     display: flex;
+
   }
 
   .article__top {
     text-align: left;
-    margin: 0;
-    padding: 15px 0 0 40px;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 500px;
   }
 
   .article__text {
-    width: 45%;
+    max-width: 400px;
+    min-width: 200px;
   }
 
   .article__charset {
-    margin: 0;
-    padding: 0 40px 0 0;
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    text-align: left;
   }
 
   .charset__item-two {
@@ -105,8 +109,45 @@
     display: flex;
     flex-direction: column-reverse;
   }
+
   .footer__box {
     width: 100%;
+  }
+
+  .footer__inform {
+    display: flex;
+  
+  }
+
+  .footer__footer {
+    text-align: left;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 500px;
+  }
+
+  .footer__pad {
+    margin: 0 auto;
+  }
+
+  .footer__safe {
+    display: none;
+  }
+
+  .footer__info {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+
+  .footer__car {
+    left: 0;
+  }
+
+  .footer__model {
+    top: 5%;
+    left: 10%;
+    max-width: 700px;
   }
 
 }
@@ -251,7 +292,7 @@
   }
 
   .article__text {
-    width: 60%;
+    width: ;
   }
 }
 
@@ -317,8 +358,51 @@
     font-size: 12px;
   }
 
-  
+  .artcile__info {
+    max-height: 100%;
+  }
+
+  .footer__safe {
+    display: none;
+  }
+
+  .footer__model {
+    top: 0;
+    left: 0;
+  }
+
+  .footer__car {
+    left: 0;
+  } 
 }
+
+@media screen and ( max-width: 700px) {
+  .article__charset {
+    display: none;
+  }
+  .buttons {
+    display: none;
+  }
+
+  .article__info {
+    margin: 0 auto;
+  }
+
+  .footer__footer {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .footer__info {
+    display: none;
+  }
+
+  .footer__pad {
+    display: none;
+  }
+
+}
+
 
 @media screen and (max-width: 560px) {
   .main__title {
@@ -340,13 +424,7 @@
     display: none;
   }
 
-  .article__charset {
-    display: none;
-  }
 
-  .buttons {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 501px) {
